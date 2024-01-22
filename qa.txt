@@ -1,0 +1,22 @@
+ExampleIG : Validation Results
+=========================================
+
+err = 0, warn = 2, info = 1
+IG Publisher Version: 1.5.14
+Generated Mon Jan 22 14:00:57 UTC 2024. FHIR version 4.0.1 for fhir-ig-eth-training#1.0.0 (canonical = http://openhie.org/fhir/fhir-ig-eth-training)
+ Build Errors : 0 / 0 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-fhir-ig-eth-training : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Organization-ETHOrganizationExample : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/Patient-ETHPatientExample : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-eth-organization : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-eth-patient : 0 / 0 / 1
+</table>
+== n/a ==
+== fsh-generated/resources/ImplementationGuide-fhir-ig-eth-training.json ==
+== fsh-generated/resources/Organization-ETHOrganizationExample.json ==
+INFORMATION: Organization/ETHOrganizationExample: Organization.type[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/organization-type|0.1.0
+WARNING: Organization/ETHOrganizationExample: Organization.type[0].text: Primitive types should not only be whitespace
+== fsh-generated/resources/Patient-ETHPatientExample.json ==
+WARNING: Patient/ETHPatientExample: Patient.maritalStatus.text: Primitive types should not only be whitespace
+== fsh-generated/resources/StructureDefinition-eth-organization.json ==
+== fsh-generated/resources/StructureDefinition-eth-patient.json ==

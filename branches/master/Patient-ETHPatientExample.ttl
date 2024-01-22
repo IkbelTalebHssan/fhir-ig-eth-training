@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://openhie.org/fhir/fhir-ig-eth-training/Patient/ETHPatientExample> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ETHPatientExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/fhir-ig-eth-training/StructureDefinition/eth-patient"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/fhir-ig-eth-training/StructureDefinition/eth-patient>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Anonymous Patient</b> female, DoB: 1982-09-05 ( id: 010667)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus S}\">Never Married</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Ids:</td><td colspan=\"3\"><ul><li>id: a247cce716fd4e68933fe06444b27da5</li><li>id: 140800800801</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail:</td><td colspan=\"3\">Urban</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient Links\">Links:</td><td colspan=\"3\"><ul><li>Managing Organization: <a href=\"Organization-ETHOrganizationExample.html\">Organization/ETHOrganizationExample</a> &quot;Saris Health Center&quot;</li></ul></td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://cdr.aacahb.gov.et/MRN"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "010667" ]
+  ] [
+     fhir:system [ fhir:v "http://cdr.aacahb.gov.et/SmartCareID"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "a247cce716fd4e68933fe06444b27da5" ]
+  ] [
+     fhir:system [ fhir:v "http://cdr.aacahb.gov.et/UAN"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "140800800801" ]
+  ] ) ; # 
+  fhir:gender [ fhir:v "female"] ; # 
+  fhir:birthDate [ fhir:v "1982-09-05"^^xsd:date] ; # 
+  fhir:address ( [
+     fhir:type [ fhir:v "physical" ] ;
+     fhir:text [ fhir:v "Urban" ] ;
+     fhir:line ( [ fhir:v "17" ] [ fhir:v "927/5" ] ) ;
+     fhir:city [ fhir:v "Cherkos sub city" ] ;
+     fhir:district [ fhir:v "10" ] ;
+     fhir:state [ fhir:v "Addis Ababa" ]
+  ] ) ; # 
+  fhir:maritalStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "S" ] ;
+       fhir:display [ fhir:v "Never Married" ]
+     ] ) ;
+     fhir:text [ fhir:v " " ]
+  ] ; # 
+  fhir:managingOrganization [
+     fhir:link <http://openhie.org/fhir/fhir-ig-eth-training/Organization/ETHOrganizationExample> ;
+     fhir:reference [ fhir:v "Organization/ETHOrganizationExample" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

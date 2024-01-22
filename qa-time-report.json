@@ -1,0 +1,236 @@
+{
+  "date" : "Mon, 22 Jan, 2024 14:00:40 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-fhir-ig-eth-training.json",
+      "size" : 3410,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 42,
+          "length" : 38
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 43,
+          "length" : 74
+        },
+        {
+          "activity" : "validate",
+          "start" : 45,
+          "length" : 458
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 104
+        },
+        {
+          "activity" : "generate2",
+          "start" : 48,
+          "length" : 78
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 57,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 60,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Organization-ETHOrganizationExample.json",
+      "size" : 880,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 42,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 43,
+          "length" : 218
+        },
+        {
+          "activity" : "validate",
+          "start" : 45,
+          "length" : 11
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 48,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Patient-ETHPatientExample.json",
+      "size" : 1078,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 42,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 43,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 45,
+          "length" : 15
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 48,
+          "length" : 16
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-eth-organization.json",
+      "size" : 3291,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 42,
+          "length" : 12
+        },
+        {
+          "activity" : "load",
+          "start" : 42,
+          "length" : 22
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 42,
+          "length" : 187
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 43,
+          "length" : 250
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 939
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 45,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 394
+        },
+        {
+          "activity" : "generate2",
+          "start" : 48,
+          "length" : 2030
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 57,
+          "length" : 21
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 60,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-eth-patient.json",
+      "size" : 3709,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 42,
+          "length" : 13
+        },
+        {
+          "activity" : "load",
+          "start" : 42,
+          "length" : 14
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 43,
+          "length" : 170
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 43,
+          "length" : 152
+        },
+        {
+          "activity" : "validate",
+          "start" : 44,
+          "length" : 505
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 469
+        },
+        {
+          "activity" : "generate2",
+          "start" : 50,
+          "length" : 1018
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 57,
+          "length" : 17
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "resourceType" : "Patient",
+  "id" : "ETHPatientExample",
+  "meta" : {
+    "profile" : ["http://openhie.org/fhir/fhir-ig-eth-training/StructureDefinition/eth-patient"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Anonymous Patient</b> female, DoB: 1982-09-05 ( id:\u00a0010667)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus S}\">Never Married</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Ids:</td><td colspan=\"3\"><ul><li>id:\u00a0a247cce716fd4e68933fe06444b27da5</li><li>id:\u00a0140800800801</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail:</td><td colspan=\"3\">Urban</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient Links\">Links:</td><td colspan=\"3\"><ul><li>Managing Organization: <a href=\"Organization-ETHOrganizationExample.html\">Organization/ETHOrganizationExample</a> &quot;Saris Health Center&quot;</li></ul></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "system" : "http://cdr.aacahb.gov.et/MRN",
+    "value" : "010667"
+  },
+  {
+    "system" : "http://cdr.aacahb.gov.et/SmartCareID",
+    "value" : "a247cce716fd4e68933fe06444b27da5"
+  },
+  {
+    "system" : "http://cdr.aacahb.gov.et/UAN",
+    "value" : "140800800801"
+  }],
+  "gender" : "female",
+  "birthDate" : "1982-09-05",
+  "address" : [{
+    "type" : "physical",
+    "text" : "Urban",
+    "line" : ["17",
+    "927/5"],
+    "city" : "Cherkos sub city",
+    "district" : "10",
+    "state" : "Addis Ababa"
+  }],
+  "maritalStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code" : "S",
+      "display" : "Never Married"
+    }],
+    "text" : " "
+  },
+  "managingOrganization" : {
+    "reference" : "Organization/ETHOrganizationExample"
+  }
+}

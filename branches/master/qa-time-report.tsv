@@ -1,0 +1,6 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-fhir-ig-eth-training.json	3410	-	0	0	0	0	0	0	4	74	0	0	0	0	0	0	0	1	0	0	104	78	0	0	0	5	0	1
+fsh-generated/resources/Organization-ETHOrganizationExample.json	880	9	0	0	0	0	0	0	0	218	0	0	0	0	0	0	0	0	0	0	15	11	0	0	0	0	0	0
+fsh-generated/resources/Patient-ETHPatientExample.json	1078	9	0	0	0	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0	10	16	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-eth-organization.json	3291	12	0	0	0	0	0	187	1	250	0	0	1	0	0	0	0	2	0	0	394	2030	0	0	0	21	0	1
+fsh-generated/resources/StructureDefinition-eth-patient.json	3709	13	0	0	0	0	0	170	0	152	0	0	0	0	0	0	0	1	0	0	469	1018	0	0	0	17	0	0

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="ETHPatientExample"/>
+  <meta>
+    <profile value="http://openhie.org/fhir/fhir-ig-eth-training/StructureDefinition/eth-patient"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;"><b>Anonymous Patient</b> female, DoB: 1982-09-05 ( id: 010667)</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Known Marital status of Patient">Marital Status:</td><td colspan="3"><span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus S}">Never Married</span></td></tr><tr><td style="background-color: #f3f5da" title="Other Ids (see the one above)">Other Ids:</td><td colspan="3"><ul><li>id: a247cce716fd4e68933fe06444b27da5</li><li>id: 140800800801</li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Detail:</td><td colspan="3">Urban</td></tr><tr><td style="background-color: #f3f5da" title="Patient Links">Links:</td><td colspan="3"><ul><li>Managing Organization: <a href="Organization-ETHOrganizationExample.html">Organization/ETHOrganizationExample</a> &quot;Saris Health Center&quot;</li></ul></td></tr></table></div>
+  </text>
+  <identifier>
+    <system value="http://cdr.aacahb.gov.et/MRN"/>
+    <value value="010667"/>
+  </identifier>
+  <identifier>
+    <system value="http://cdr.aacahb.gov.et/SmartCareID"/>
+    <value value="a247cce716fd4e68933fe06444b27da5"/>
+  </identifier>
+  <identifier>
+    <system value="http://cdr.aacahb.gov.et/UAN"/>
+    <value value="140800800801"/>
+  </identifier>
+  <gender value="female"/>
+  <birthDate value="1982-09-05"/>
+  <address>
+    <type value="physical"/>
+    <text value="Urban"/>
+    <line value="17"/>
+    <line value="927/5"/>
+    <city value="Cherkos sub city"/>
+    <district value="10"/>
+    <state value="Addis Ababa"/>
+  </address>
+  <maritalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+      <code value="S"/>
+      <display value="Never Married"/>
+    </coding>
+    <text value=" "/>
+  </maritalStatus>
+  <managingOrganization>
+    <reference value="Organization/ETHOrganizationExample"/>
+  </managingOrganization>
+</Patient>

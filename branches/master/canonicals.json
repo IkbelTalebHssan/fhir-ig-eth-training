@@ -1,0 +1,23 @@
+[
+  {
+    "id" : "fhir-ig-eth-training",
+    "type" : "ImplementationGuide",
+    "url" : "http://openhie.org/fhir/fhir-ig-eth-training/ImplementationGuide/fhir-ig-eth-training",
+    "version" : "1.0.0",
+    "name" : "ExampleIG"
+  },
+  {
+    "id" : "eth-organization",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/fhir-ig-eth-training/StructureDefinition/eth-organization",
+    "version" : "1.0.0",
+    "name" : "ETHOrganization"
+  },
+  {
+    "id" : "eth-patient",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/fhir-ig-eth-training/StructureDefinition/eth-patient",
+    "version" : "1.0.0",
+    "name" : "ETHPatient"
+  }
+]

@@ -1,0 +1,9 @@
+ExampleIG
+=========================================
+
+/github/workspace/fsh-generated/resources/Organization-ETHOrganizationExample.json: line 20, col 6, Info - Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/organization-type|0.1.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/Organization-ETHOrganizationExample.json: line 28, col 18, Warning - Primitive types should not only be whitespace (INVALID)
+/github/workspace/fsh-generated/resources/Patient-ETHPatientExample.json: line 31, col 16, Warning - Primitive types should not only be whitespace (INVALID)
+
+err = 0, warn = 2, info = 1
+IG Publisher Version: 1.5.14

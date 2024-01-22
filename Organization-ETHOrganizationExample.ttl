@@ -1,0 +1,46 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://openhie.org/fhir/fhir-ig-eth-training/Organization/ETHOrganizationExample> a fhir:Organization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ETHOrganizationExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/fhir-ig-eth-training/StructureDefinition/eth-organization"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/fhir-ig-eth-training/StructureDefinition/eth-organization>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"ETHOrganizationExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;ETHOrganizationExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-eth-organization.html\">Ethiopian Organization</a></p></div><p><b>identifier</b>: id: 141010023, id: NJ1eyPaE2xB</p><p><b>active</b>: true</p><p><b>type</b>: Healthcare Provider <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-organization-type.html\">Organization type</a>#prov)</span></p><p><b>name</b>: Saris Health Center</p><p><b>address</b>: Kebele 12.13 Akaki Kality Addis Ababa </p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://cdr.aacahb.gov.et/MOHId"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "141010023" ]
+  ] [
+     fhir:system [ fhir:v "http://cdr.aacahb.gov.et/HFUID"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "NJ1eyPaE2xB" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/organization-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "prov" ] ;
+       fhir:display [ fhir:v "Healthcare Provider" ]
+     ] ) ;
+     fhir:text [ fhir:v " " ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Saris Health Center"] ; # 
+  fhir:address ( [
+     fhir:line ( [ fhir:v "Kebele 12.13" ] ) ;
+     fhir:city [ fhir:v "Akaki Kality" ] ;
+     fhir:district [ fhir:v "Akaki Kality woreda 6" ] ;
+     fhir:state [ fhir:v "Addis Ababa" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
