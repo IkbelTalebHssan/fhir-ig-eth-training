@@ -6,9 +6,9 @@
 # │  specific packageId is also provided in this file.                                             │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
-id: fhir-ig-eth-training
-canonical: http://openhie.org/fhir/fhir-ig-eth-training
-url: http://openhie.org/fhir/fhir-ig-eth-training/ImplementationGuide/fhir-ig-eth-training
+id: training
+canonical: http://openhie.org/fhir/training
+url: http://openhie.org/fhir/training/ImplementationGuide/training
 name: ExampleIG
 title: "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1"
 description: Example IG exercises many of the fields in a SUSHI configuration.
