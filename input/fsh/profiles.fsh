@@ -34,7 +34,7 @@ Description: "This resource is used to document demographics and other administr
 * address.state 0..1
 * address.city 0..1
 * address.district 0..1
-* address.line 0..1
+* address.line 0..*
 Profile: ETHOrganization
 Parent: Organization
 Id: eth-organization
@@ -53,12 +53,12 @@ Description: "This resource is used to document administrative informations abou
 * identifier[MOHId].value 1..1
 * identifier[MOHId].system = "http://cdr.aacahb.gov.et/MOHId" (exactly)
 * identifier[HFUID].value 1..1
-* identifier[HFUID].system 1..1
+* identifier[HFUID].system = "http://cdr.aacahb.gov.et/HFUID" (exactly)
 * address 1..*
 * address.state 1..1
 * address.city 1..1
 * address.district 0..1
-* address.line 0..1
+* address.line 0..*
 * active 0..1
 * type 0..1
 * type.text 0..1
